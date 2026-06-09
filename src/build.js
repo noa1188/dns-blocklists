@@ -11,7 +11,7 @@ import * as fs from "fs";
 import * as path from "path";
 import * as trie from "trie";
 import * as log from "./log.js";
-import unames from "./unames.json" assert {type:"json"}
+import unames from "./unames.json" with {type:"json"}
 import { genVersion } from "./ver.js";
 
 const outdir = process.env.OUTDIR;
