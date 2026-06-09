@@ -1,5 +1,7 @@
 name: ValidateBlocklists
+
 on:
+  workflow_dispatch:
   push:
     # TODO: inputs.environment and inputs.commit
     branches:
